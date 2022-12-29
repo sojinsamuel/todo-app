@@ -1,66 +1,64 @@
 html {
-     min-height: 1000px;
-    font-family: 'Comfortaa', 'Segoe UI', Tahoma, Verdana, sans-serif;
-    background-color: #cfe6fa;
-    opacity: 0.5;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #cfe6fa 38px ), repeating-linear-gradient( #85bdf055, #85bdf0 );
+  min-height: 1000px;
+  font-family: 'Comfortaa', 'Segoe UI', Tahoma, Verdana, sans-serif;
+  background-color: #cfe6fa;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #cfe6fa 38px), repeating-linear-gradient(#85bdf055, #85bdf0);
+  opacity: 0.5;
 }
 
-.box{
-    display: flex;
-    justify-content: center;
-    max-width: 400px;
-    margin: 50px auto;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 5px 5px 15px -5px rgb(0 0 0 / 30%);
+.box {
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgb(0 0 0 / 30%);
 }
 
-#heading{
-    background-color: #85bdf0;
+#heading {
+  background-color: #85bdf0;
 }
 
-h1{
-    color: white;
+h1 {
+  color: white;
 }
 
-
-input[type='text']{
-    text-align: center;
-    height: 60px;
-    top: 10px;
-    border: none;
-    background: transparent;
-    font-size: 20px;
-    font-weight: 200;
-    width: 313px;
+input[type='text'] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
 }
 
-.task{
-    list-style-type: none;
-    margin: 10px 0;
-    font-size: 1.5rem;
-    width: 100%;
+.task {
+  list-style-type: none;
+  margin: 10px 0;
+  font-size: 1.5rem;
+  width: 100%;
 }
 
-
-button{
-    width: 50px;
-    border-radius: 50%;
-    border-color: transparent;
-    background-color: #85bdf0;
-    color: #fff;
-    font-size: 30px;
-    border-width: 0;
+button {
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #85bdf0;
+  color: #fff;
+  font-size: 30px;
+  border-width: 0;
 }
 
-.fa-trash{
-    color: #85bdf0;
-    padding-left: 1rem;
+.fa-trash {
+  color: #85bdf0;
+  padding-left: 1rem;
 }
 
-footer{
-    text-align: center;
-    margin: 0, auto;
-    color: #313132;
+footer {
+  text-align: center;
+  margin: 0 auto;
+  color: #313132;
 }
